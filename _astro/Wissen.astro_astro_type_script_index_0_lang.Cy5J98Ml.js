@@ -1,1 +1,0 @@
-import{t as e}from"./faden.47e7Tc4R.js";var t=document.getElementById(`wissensdatenbank`);t&&e(t);
