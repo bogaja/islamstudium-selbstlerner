@@ -1,0 +1,1 @@
+import{o as e,t}from"./motion.sM2GAvW4.js";var n=document.querySelector(`[data-hero-video]`),r=document.querySelector(`[data-hero-sound]`);n&&(t.then(()=>{e()||n.play().catch(()=>{})}),r?.addEventListener(`click`,async()=>{n.currentTime=0,n.muted=!1,r.hidden=!0;try{await n.play()}catch{r.hidden=!1}}),n.addEventListener(`volumechange`,()=>{!n.muted&&r&&(r.hidden=!0)}));

@@ -1,1 +1,0 @@
-import{o as e,t}from"./motion.sM2GAvW4.js";var n=document.querySelector(`[data-hero-video]`);n&&t.then(()=>{e()||n.play().catch(()=>{})});
