@@ -1,1 +1,0 @@
-import{l as e}from"./motion.sM2GAvW4.js";for(let t of document.querySelectorAll(`#faq details`))t.querySelector(`summary`)?.addEventListener(`click`,()=>t.dataset.nutzer=`1`),t.addEventListener(`toggle`,()=>{t.open&&t.dataset.nutzer&&e(`faq_open`,{question:t.dataset.frage}),delete t.dataset.nutzer});
